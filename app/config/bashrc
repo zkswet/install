@@ -1,0 +1,58 @@
+alias v='sudo vim'
+alias vi='sudo vim'
+alias c='clear;pwd;ls'
+alias f='cd ..;clear;pwd;ls'
+alias firewall='sudo vim /etc/sysconfig/iptables'
+alias sb='source ~/.bashrc'
+alias vb='vim ~/.bashrc'
+alias md='mkdir'
+alias clist='chkconfig --list'
+alias clevel='sudo chkconfig --levels 2345 '
+alias ys='yum search'
+alias yi='sudo yum install'
+alias si='sudo service iptables'
+alias fn='sudo find / -name '
+alias ff='find ./ -name "*" | xargs grep'
+alias rg='sudo rpm -qa | grep '
+alias snr='sudo service network restart'
+alias shr='sudo service httpd restart'
+alias svr='sudo service vsftpd restart'
+alias sfr='sudo service iptables restart'
+alias ac='cd /usr/local/apache/conf/vhost;c'
+alias nc='cd /usr/local/openresty/nginx/conf;c'
+alias wd='cd /data/www;c'
+alias mu='mysql -u'
+alias nr='sudo /usr/local/nginx/sbin/nginx -s reload'
+alias l='cd /usr/local;c'
+alias da='sudo du -ah'
+alias d1='sudo du -h --max-depth=1'
+alias ds='sudo du -sh'
+alias p='python'
+# git ----------------------------------------------------------------------------------------------
+# list create delete branch ---
+alias gb="git branch"
+alias gbv="git branch -v"
+alias gba="git branch -a"
+alias gm="git merge"
+alias gres="git reset"
+alias gpush="git push"
+# pull = fetch + merge
+alias gpull="git pull"
+alias gf="git fetch"
+
+alias gs="clear;ls;git status -s"
+alias gss="clear;ls;git status"
+alias gr="git remote"
+alias grv="git remote -v"
+alias gsh="git show"
+alias gt="git tag"
+alias gd="git diff -w -b"
+alias gll="git log --graph"
+alias gl="git log  --decorate --oneline"
+alias ga="git add"
+alias gc="git commit"
+alias gca="git commit --amend"
+alias gco="git checkout"
+alias gcl="git clone"
+alias gcom="git checkout master"
+
